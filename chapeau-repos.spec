@@ -1,7 +1,7 @@
 Summary:        Chapeau package repositories
 Name:           chapeau-repos
 Version:        21
-Release:        1
+Release:        2
 License:        MIT
 Group:          System Environment/Base
 URL:            https://chapeaulinux.org
@@ -43,6 +43,9 @@ done
 /etc/pki/rpm-gpg/*
 
 %changelog
+* Sun Feb 01 2015 Vince Pooley 21-2
+- Set enabled to 0 & skip_if_unavailable to 1 on the Livna repo
+
 * Sat Jan 03 2015 Vince Pooley 21-1
 - New Chapeau repository package for Chapeau 21
 
