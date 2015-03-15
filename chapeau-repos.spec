@@ -1,7 +1,7 @@
 Summary:        Chapeau package repositories
 Name:           chapeau-repos
 Version:        21
-Release:        2
+Release:        3
 License:        MIT
 Group:          System Environment/Base
 URL:            https://chapeaulinux.org
@@ -43,6 +43,9 @@ done
 /etc/pki/rpm-gpg/*
 
 %changelog
+* Wed Feb 04 2015 Vince Pooley 21-3
+- Added includepkg paterns to korora.repo
+
 * Sun Feb 01 2015 Vince Pooley 21-2
 - Set enabled to 0 & skip_if_unavailable to 1 on the Livna repo
 

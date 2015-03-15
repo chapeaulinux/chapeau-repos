@@ -4,6 +4,6 @@ baseurl=http://mirror.linux.org.au/pub/korora/releases/$releasever/$basearch/ ft
 #mirrorlist=http://dl.kororaproject.org/pub/korora/korora-mirror.lst
 enabled=1
 gpgcheck=0
-includepkgs=pharlap*
+includepkgs=pharlap*,lens*,*-lens-*,*-lens
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-korora-21-primary
 skip_if_unavailable=1
