@@ -1,16 +1,11 @@
 Summary:        Chapeau package repositories
 Name:           chapeau-repos
-Version:        21
-Release:        3
+Version:        22
+Release:        1
 License:        MIT
 Group:          System Environment/Base
 URL:            https://chapeaulinux.org
 Source:         %{name}-%{version}.tar.bz2
-Requires:       fedora-repos(%{version})
-Requires:       chapeau-release
-Obsoletes:      fedora-repos-anaconda < 21-1
-Obsoletes:      fedora-repos-rawhide < 21-0.4
-Obsoletes:      fedora-release-rawhide <= 21-0.7
 BuildArch:      noarch
 
 %description
@@ -36,13 +31,17 @@ done
 %config /etc/yum.repos.d/chapeau*.repo
 %config /etc/yum.repos.d/adobe*.repo
 %config /etc/yum.repos.d/korora*.repo
-%config /etc/yum.repos.d/livna*.repo
 %config /etc/yum.repos.d/playonlinux*.repo
 %config /etc/yum.repos.d/virtualbox*.repo
 %dir /etc/pki/rpm-gpg
 /etc/pki/rpm-gpg/*
 
 %changelog
+* Sat Apr 04 2015 Vince Pooley 22-1
+- Livna removed
+- Removed requirement for fedora-repos & chapeau-release
+- Removed obsoletes
+
 * Wed Feb 04 2015 Vince Pooley 21-3
 - Added includepkg paterns to korora.repo
 
