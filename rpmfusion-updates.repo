@@ -1,0 +1,99 @@
+[rpmfusion-free-updates]
+name=RPM Fusion for Fedora $releasever - Free - Updates
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/$releasever/$basearch/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-$releasever&arch=$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
+
+[rpmfusion-free-updates-debuginfo]
+name=RPM Fusion for Fedora $releasever - Free - Updates Debug
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/$releasever/$basearch/debug/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-debug-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
+
+[rpmfusion-free-updates-source]
+name=RPM Fusion for Fedora $releasever - Free - Updates Source
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/$releasever/SRPMS/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-source-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
+
+[rpmfusion-free-updates-testing]
+name=RPM Fusion for Fedora $releasever - Free - Test Updates
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/testing/$releasever/$basearch/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-testing-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
+
+[rpmfusion-free-updates-testing-debuginfo]
+name=RPM Fusion for Fedora $releasever - Free - Test Updates Debug
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/testing/$releasever/$basearch/debug/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-testing-debug-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
+
+[rpmfusion-free-updates-testing-source]
+name=RPM Fusion for Fedora $releasever - Free - Test Updates Source
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/testing/$releasever/SRPMS/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-testing-source-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
+
+
+
+[rpmfusion-nonfree-updates]
+name=RPM Fusion for Fedora $releasever - Nonfree - Updates
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/$releasever/$basearch/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-$releasever&arch=$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever
+
+[rpmfusion-nonfree-updates-debuginfo]
+name=RPM Fusion for Fedora $releasever - Nonfree - Updates Debug
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/$releasever/$basearch/debug/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-debug-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever
+
+[rpmfusion-nonfree-updates-source]
+name=RPM Fusion for Fedora $releasever - Nonfree - Updates Source
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/$releasever/SRPMS/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-source-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever
+
+[rpmfusion-nonfree-updates-testing]
+name=RPM Fusion for Fedora $releasever - Nonfree - Test Updates
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/testing/$releasever/$basearch/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-testing-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever
+
+[rpmfusion-nonfree-updates-testing-debuginfo]
+name=RPM Fusion for Fedora $releasever - Nonfree - Test Updates Debug
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/testing/$releasever/$basearch/debug/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-testing-debug-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever
+
+[rpmfusion-nonfree-updates-testing-source]
+name=RPM Fusion for Fedora $releasever - Nonfree - Test Updates Source
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/testing/$releasever/SRPMS/
+mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-testing-source-$releasever&arch=$basearch
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever
+
+

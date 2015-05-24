@@ -1,7 +1,7 @@
 Summary:        Chapeau package repositories
 Name:           chapeau-repos
 Version:        22
-Release:        1
+Release:        3
 License:        MIT
 Group:          System Environment/Base
 URL:            https://chapeaulinux.org
@@ -33,10 +33,17 @@ done
 %config /etc/yum.repos.d/korora*.repo
 %config /etc/yum.repos.d/playonlinux*.repo
 %config /etc/yum.repos.d/virtualbox*.repo
+%config /etc/yum.repos.d/rpmfusion*.repo
 %dir /etc/pki/rpm-gpg
 /etc/pki/rpm-gpg/*
 
 %changelog
+* Sun May 24 2015 Vince Pooley 22-3
+- RPMFusion free & non-free repos now enabled, development repos disabled.
+
+* Sat Apr 18 2015 Vince Pooley 22-2
+- RPMFusion development repos switched from mirrors to base
+
 * Sat Apr 04 2015 Vince Pooley 22-1
 - Livna removed
 - Removed requirement for fedora-repos & chapeau-release
