@@ -5,7 +5,8 @@ mirrorlist=http://dl.kororaproject.org/pub/korora/korora-mirror.lst
 enabled=1
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-korora-$releasever-primary
-includepkgs=pharlap*,lens*,*-lens-*,*-lens
+include=pharlap*,lens*,*-lens-*,*-lens
+exclude=korora*,anaconda*
 skip_if_unavailable=1
 
 [korora-source]
@@ -15,7 +16,8 @@ mirrorlist=http://dl.kororaproject.org/pub/korora/korora-mirror-source.lst
 enabled=0
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-korora-$releasever-primary
-includepkgs=pharlap*,lens*,*-lens-*,*-lens
+include=pharlap*,lens*,*-lens-*,*-lens
+exclude=korora*,anaconda*
 
 [korora-testing]
 name=Korora Testing $releasever - $basearch
@@ -24,7 +26,8 @@ mirrorlist=http://dl.kororaproject.org/pub/korora/korora-mirror-testing.lst
 enabled=0
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-korora-$releasever-primary
-includepkgs=pharlap*,lens*,*-lens-*,*-lens
+include=pharlap*,lens*,*-lens-*,*-lens
+exclude=korora*,anaconda*
 
 [korora-testing-source]
 name=Korora Testing $releasever - $basearch - Source
