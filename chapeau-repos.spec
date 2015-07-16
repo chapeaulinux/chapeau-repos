@@ -11,6 +11,8 @@ Requires:       chapeau-release
 Obsoletes:      fedora-repos-anaconda < 21-1
 Obsoletes:      fedora-repos-rawhide < 21-0.4
 Obsoletes:      fedora-release-rawhide <= 21-0.7
+Provides:       rpmfusion-free-release
+Provides:       rpmfusion-nonfree-release
 BuildArch:      noarch
 
 %description
@@ -43,6 +45,10 @@ done
 /etc/pki/rpm-gpg/*
 
 %changelog
+
+* Thu Jul 16 2015 Chris Palmer(PhnxRbrn) <pennstate5013@gmail.com> 22
+- Added Provides RPMFusion
+
 * Wed Feb 04 2015 Vince Pooley 21-3
 - Added includepkg paterns to korora.repo
 
