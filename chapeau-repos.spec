@@ -45,6 +45,10 @@ done
 /etc/pki/rpm-gpg/*
 
 %changelog
+
+* Thu Jul 16 2015 Chris Palmer(PhnxRbrn) <pennstate5013@gmail.com> 22
+- Added Provides RPMFusion
+
 * Wed Feb 04 2015 Vince Pooley 21-3
 - Added includepkg paterns to korora.repo
 
