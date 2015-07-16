@@ -11,6 +11,8 @@ Requires:       chapeau-release
 Obsoletes:      fedora-repos-anaconda < 21-1
 Obsoletes:      fedora-repos-rawhide < 21-0.4
 Obsoletes:      fedora-release-rawhide <= 21-0.7
+Provides:       rpmfusion-free-release
+Provides:       rpmfusion-nonfree-release
 BuildArch:      noarch
 
 %description
