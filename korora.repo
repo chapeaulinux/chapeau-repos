@@ -2,7 +2,7 @@
 name=Korora $releasever - $basearch
 #baseurl=http://mirror.linux.org.au/pub/korora/releases/$releasever/$basearch/ ftp://mirror.aarnet.edu.au/pub/korora/korora/releases/$releasever/$basearch/ http://dl.kororaproject.org/pub/korora/releases/$releasever/$basearch/
 mirrorlist=http://dl.kororaproject.org/pub/korora/korora-mirror.lst
-enabled=1
+enabled=0
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-korora-$releasever-primary
 priority=100
