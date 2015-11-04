@@ -6,7 +6,6 @@ enabled=1
 metadata_expire=7d
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
-skip_if_unavailable=1
 
 [rpmfusion-free-debuginfo]
 name=RPM Fusion for Fedora $releasever - Free - Debug
@@ -26,8 +25,6 @@ metadata_expire=7d
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever
 
-
-
 [rpmfusion-nonfree]
 name=RPM Fusion for Fedora $releasever - Nonfree
 #baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/$releasever/Everything/$basearch/os/
@@ -36,7 +33,6 @@ enabled=1
 metadata_expire=7d
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever
-skip_if_unavailable=1
 
 [rpmfusion-nonfree-debuginfo]
 name=RPM Fusion for Fedora $releasever - Nonfree - Debug
@@ -55,5 +51,4 @@ enabled=0
 metadata_expire=7d
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever
-
 
