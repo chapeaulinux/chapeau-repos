@@ -1,7 +1,7 @@
 Summary:        Chapeau package repositories
 Name:           chapeau-repos
 Version:        23
-Release:        1
+Release:        2
 License:        MIT
 Group:          System Environment/Base
 URL:            https://chapeaulinux.org
@@ -40,6 +40,9 @@ test -f /etc/yum.repos.d/korora.repo && rm -f /etc/yum.repos.d/korora.repo
 /etc/pki/rpm-gpg/*
 
 %changelog
+* Wed Nov 18 2015 Vince Pooley 23-2
+- Pull in changed RPMFusion GPG keys
+
 * Tue Nov 03 2015 Vince Pooley 23-1
 - Repos & keys updated for Chapeau 23
 - Korora repo removed
